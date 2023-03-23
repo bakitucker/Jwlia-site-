@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+header{
+    
+    width: 100%;
+    height: 50px;
+    float: left;
+    clear: both;
+}
+body{
+    font-family: 'Lato';
+}
+.button{
+    background-color: rgba(51,57,66,255);
+    color: white;
+}
+header li{
+    float: left;
+    list-style: none;
+}
+header a{
+    color: rgba(135,131,135,255);
+    text-decoration: none;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+}
+.oright img{
+    width: 55%;
+    height: 400px;
+}
+
+.one{
+    
+    width: 100%;
+    height: 400px;
+    float: left;
+    background-color: rgba(241,243,245,255)
+}
+.oleft{
+    
+    width: 50%;
+    height: 400px;
+    float: left;
+    padding-left: 10%;
+}
+.oleft button{
+    background-color: rgba(184,197,207,255);
+    color: white;
+}
+.oright{
+    
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.two{
+    
+    width: 100%;
+    
+    float: left;
+}
+.ttop{
+    
+    width: 100%;
+    
+    float: left;
+}
+.ttop h2{
+    font-size: 287%;
+    text-align: center;
+    margin-top: 1%;
+    color: rgba(52,58,67,255);
+}
+.tmiddle{
+    
+    width: 100%;
+    
+    float: left;
+}
+.middlep{
+    
+    width: 50%;
+    
+    float: left;
+}
+.middlep p{
+    margin-left: 23%;
+    margin-top: 5%;
+    width: 46%;
+}
+.tbottom{
+    
+    width: 100%;
+    
+    float: left;
+}
+.tbottom p{
+    text-align: center;
+    color: rgba(175,184,189,255);
+}
+.three{
+    
+    width: 100%;
+    
+    float: left;
+
+    background-color: rgba(241,243,245,255);
+}
+.tleft{
+    
+    width: 60%;
+    
+    float: left;
+}
+.pictop{
+    
+    width: 40%;
+    height: 300px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.picbottom{
+    
+    width: 40%;
+    height: 300px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+
+.four{
+    
+    width: 100%;
+    
+    float: left;
+   
+}
+
+.head{
+    
+    width: 100%;
+    height: 100px;
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+.bio{
+    
+    width: 100%;
+    
+    float: left;
+}
+.bioleft{
+    
+    width: 30%;
+    
+    float: left;
+}
+.bioleft img{
+    height: 293px;
+    width: 70%;
+}
+
+.bioright{
+    
+    width: 70%;
+    
+    float: left;
+}
+.five{
+    
+    width: 100%;
+    
+    float: left;
+}
+.five section{
+    
+    width: 50%;
+    
+    float: left;
+}
+footer{
+    
+    width: 100%;
+    height: 400px;
+    float: left;
+    clear: both;
+}
+.topfoot{
+    
+    width: 100%;
+    height: 100px;
+    float: left;
+    text-align: center;
+    background-color: rgba(184,197,208,255);
+}
+.topfoot span{
+    font-size: 212%;
+    color: rgba(225,230,235,255);
+}
+.topfoot input{
+    margin-left: 14%;
+    font-size: 152%;
+}
+.topfoot button{
+    font-size: 152%;
+    background-color: rgba(143,156,163,255);
+    color: white;
+}
+.bottomfoot{
+    
+    width: 100%;
+    height: 300px;
+    float: left;
+    background-color: rgba(143,156,163,255);
+    color: white;
+}
+.bfone{
+    
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.bfone a{
+    text-decoration: none;
+    color: white;
+}
+.bfone li{
+    list-style: none;
+    float: left;
+    margin-left: 10%;
+}
+.bfone ul{
+    margin-left: 71%;
+    float: left;
+    margin-top: -2%;
+    width: 34%;
+}
+.bftwo{
+    
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+.bftwo a{
+    text-decoration: none;
+    color: white;
+}
+.bftwo li{
+    list-style: none;
+}
+.links{
+    
+    width: 20%;
+    height: 200px;
+    float: left;
+}
+.fellow{
+    
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+.fellow li{
+    float: left;
+    margin-left: 16%;
+}
+
+@media(max-width: 1290px){
+    .bfone ul{
+        width: 29%;
+        margin-left: 30%;
+    }
+}
+@media(max-width: 1175px){
+    .hide{
+        display: none;
+    }
+}
+@media(max-width: 1024px){
+    .tleft{
+        width: 100%;
+    }
+    .pictop{
+        width: 50%;
+    }
+    .picbottom{
+        width: 50%;
+    }
+    }
+@media(max-width: 911px){
+    .topfoot input{
+        margin-left: 0%;
+    }
+}
+@media(max-width: 850px){
+    .fellow li{
+        margin-left: 5%;
+    }
+    .five section{
+        width: 100%;
+    }
+    .oleft{
+        width: 100%;}
+    .oright{
+        display: none;
+    }    
+    
+}
+@media(max-width: 816px){
+    .picbottom{
+        display: none;
+    }
+    .pictop{
+        width: 100%;
+    }
+}
+@media(max-width: 784px){
+    .topfoot span{
+        display: none;
+}
+.hideall{
+    display: none;
+}
+}
+@media(max-width: 580px){
+    .bftwo{
+        display: none;
+    }
+    .bottomfoot{
+        height: 100px;
+    }
+    footer{
+        height: 200px;
+    }
+    .bioleft{
+        display: none;
+    }
+    .bioright{
+        width: 100%;
+    }
+}
+@media(max-width: 550px){
+    .middlep{
+        width: 100%;
+    }
+}
